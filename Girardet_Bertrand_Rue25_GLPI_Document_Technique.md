@@ -6,9 +6,13 @@ Mot de passe : Azerty1*
 
 ### Pré-requis
 Carte réseau par pont
+
 Installer le système d'exploitation
+
 Mise a jours sytème
+
 Installer sudo
+
 Ajouter l'utilisateur dans le groupe sudo
 
 
