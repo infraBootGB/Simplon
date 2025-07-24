@@ -1,8 +1,8 @@
-## Brief Projet SOHO
+## Projet SOHO
 
 #### Les livrables sont accessibles via ce repo.
 
-- #### Brief partie 1 :
+- #### Partie 1 :
 
     - Le fichier Packet Tracer est téléchargeable [ici](https://1drv.ms/u/c/c3d16030b79c8d8e/EVTTWf3xYx1NudF3h4-u450B9LrESsNXWyX2c4DoQ5IHmQ?e=eff0xJ)
     
@@ -11,11 +11,11 @@
     
          Menaces_identifiées.md
 
-- #### Brief partie 2 :
+- #### Partie 2 :
 
     - Le fichier Packet tracer est téléchargeable [ici](https://1drv.ms/u/c/c3d16030b79c8d8e/ETuVqewIH4VNtWj7BYuykr0Bspmre8Cw69XU16M1_UDEGQ?e=AC1pIS)
 
-- #### Brief partie 3 :
+- #### Partie 3 :
 
     - La documentation est disponible dans le fichier :
     Girardet_Bertrand_Rue25_DHCP_Document_Technique.md
