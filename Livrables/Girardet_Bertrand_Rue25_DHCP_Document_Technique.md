@@ -35,7 +35,7 @@
 - Intégration du client de test au domaine et vérification de l'attribution de l'adresse IP via DHCP.
 
 
-### 4. Créer les utilisateurs ainsi que les UOs et les groupes de sécurité.Puis
+### 4. Créer les utilisateurs ainsi que les UOs et les groupes de sécurité.Puis
 
 Via la console Users and Computers
 - Création d'une OU utilisateurs
