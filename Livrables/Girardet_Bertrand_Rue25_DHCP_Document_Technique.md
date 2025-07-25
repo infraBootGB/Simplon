@@ -1,4 +1,7 @@
+# Document Technique DHCP
 
+
+##  Configurations Windows
 ### 1. Installer une machine virtuelle avec le système d’exploitation Windows
 
 - Création d'une VM serveur Windows 2022 à partir d'une image ISO, dans virtual box
@@ -47,13 +50,43 @@ Via la console Users and Computers
     - Service_Consultants
     - Service_Commerciaux
     - Service_Comptables
-    - Directrice  (La directrice est présent également dans le groupe Direction )
+    - Directrice  
+
 - Intégration des utilisateurs dans leur groupe respectifs
 
-### 5. optionnellement, un dossier partagé par service, autorisations d’accès applicables aux groupes de sécurité de l’AD
+### 5. Création d'un dossier partagé par service et autorisations d’accès applicables aux groupes de sécurité de l’AD.
 
-- Création des dossier : Direction, Consultants, Commerciaux, Comptables
-- Enregistrement des groupes de sécurité ayant accès aux dossiers partagés via l'onglet Share
-- Enregistrement des permissions NTFS pour les groupes via l'onglet sécurité
-- Test du fonctionnement du partage depuis le client de test avec le compte de la directrice
+
+
+#### 1. Création d'un dossier dédié "Dossiers Partagés" 
+
+#### 2. Création des sous dossiers : Direction, Commerciaux, Comptables, Consultants
+
+#### 3. Dossier parent : 
+
+  - Dans "Dossiers Partagés" : 
+    - Onglet sécurité -> advanced ->  Désactiver l'héritage et convertir les permissions héritées en permissions explicites
+    - Onglet sécurité : garder dans le groupe autorisés : CREATOR OWNER,  SYSTEM, Administrators, supprimer les autres.
+
+
+#### 4. Sous dossiers :
+
+- Gérer la partage pour chaque sous-dossier
+
+    - Onglet partage : advanced sharing -> permissions -> ajouter les groupes autorisés (full control)
+
+- Gérer les permissions NTFS pour chaque sous-dossier
+
+    - Onglet sécurité -> advanced -> ajouter les groupe concernés et donner le bon niveu de permissions.
+     (Par exemple consultant = modifiy, Directrice = read and execute, list folder content, read)
+
+
+
+
+
+
+
+  
+
+
 

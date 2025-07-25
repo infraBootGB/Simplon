@@ -7,7 +7,7 @@
     - Le fichier Packet Tracer est téléchargeable [ici](https://1drv.ms/u/c/c3d16030b79c8d8e/EcJDKYSoimZKmOAfNY2AeUcBTwPBwmM2l7_HgdExi78aug?e=858O8l)
     
 
-    - La liste des menaces est disponible [ici](Livrables)
+    - La liste des menaces est disponible [ici](Livrables/Menaces_identifiées.md)
     
 
 - #### Partie 2 :

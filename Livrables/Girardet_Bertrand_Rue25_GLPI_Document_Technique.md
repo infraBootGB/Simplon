@@ -1,19 +1,30 @@
-Installation de GLPI sur une VM Debian 11.6 CPU : 1 RAM : 2 Go Stockage : 20 Go
+#  Document Technique GLPI
 
-Comptes : root ou bootb
+## Installation de GLPI sur une VM Debian 11.6
 
-Mot de passe : Azerty1*
+- Comptes : root ou bootb
+
+- Mot de passe : Azerty1*
 
 ### Pré-requis
-Carte réseau par pont
 
-Installer le système d'exploitation
+- VM Debian 11.6 
 
-Mise a jours sytème
+- 1 CPU
 
-Installer sudo
+- RAM 2 Go
 
-Ajouter l'utilisateur dans le groupe sudo
+- Stockage : 20 Go
+
+- Carte réseau par pont
+
+- Installer le système d'exploitation
+
+- Mise a jours sytème
+
+- Installer sudo
+
+- Ajouter l'utilisateur dans le groupe sudo
 
 
 
