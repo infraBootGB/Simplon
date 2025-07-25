@@ -71,7 +71,7 @@ Via la console Users and Computers
 
 #### 4. Sous dossiers :
 
-- Gérer la partage pour chaque sous-dossier
+- Gérer le partage pour chaque sous-dossier
 
     - Onglet partage : advanced sharing -> permissions -> ajouter les groupes autorisés (full control)
 
